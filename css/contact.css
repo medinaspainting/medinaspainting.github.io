@@ -1,0 +1,97 @@
+.navbar {
+	display: inline-block;
+	background-color:rgba(59,59,59,0.6);
+	border-color: transparent;
+	-webkit-box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
+	box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
+}
+
+.navbar li{
+	border-right:#A30000 1px solid;
+	border-left:#A30000 1px solid;
+	font-family: QuicksandBold;
+}
+
+.navbar li:hover{
+	background-color: rgba(59,59,59,1.0);
+	border-right:#A30000 1px solid;
+	border-left:#A30000 1px solid;
+	font-family: QuicksandBold;
+}
+
+.contact {
+	background-color: rgba(59,59,59,2.0);
+	text-decoration: underline;
+}
+
+body {
+	margin:100px #3b3b3b;
+	background-color:#3b3b3b;
+	color:white;
+	font-family: QuicksandBold;
+	
+	background: repeating-linear-gradient(
+	45deg,
+	rgba(0, 0, 0, 0.6),
+	rgba(0, 0, 0, 0.6) 2px,
+	rgba(0, 0, 0, 0.7) 2px,
+	rgba(0, 0, 0, 0.7) 4px),
+	url('https://static.pexels.com/photos/1486/wood-pattern-ground-parquet-floor-large.jpg');
+}
+
+.col-md-9 {
+	width:70%;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: a30000;
+	padding-top: 0px;
+
+}
+
+.footer {
+	border-top: gray 5px solid;
+	background-color: #272727;
+	font-family: QuicksandBold;
+}
+
+.footer li{
+	color: #E6E6E6;
+}
+
+.footer a{
+	color: #E6E6E6;
+}
+
+.footer h4{
+	color: #A30000;
+	border-bottom: solid 1px;
+	border-bottom-color: #E6E6E6;
+	padding-bottom: 4px
+}
+
+.footer p{
+	color: #E6E6E6;
+}
+
+.footer li{
+	padding: 10px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.i-primary i{
+	color:#A30000;
+}
+
+.pull-right h2{
+	padding-top: 50px; 
+}
+
+{
+<style> @font-face { font-family: QuicksandBold; src: url('css/Quicksand_Bold.otf'); } h1 {font-family: QuicksandBold}</style>
+}
