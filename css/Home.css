@@ -1,6 +1,9 @@
 html, html a {
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    margin-right:none;
+    padding-right: none;
+    border-right:none;
 }
 
 .navbar {
@@ -9,6 +12,9 @@ html, html a {
 	-webkit-box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
 	box-shadow: 3px 5px 23px -3px rgba(0,0,0,0.75);
+}
+.nav{
+	float: right;
 }
 
 .navbar li{
@@ -28,27 +34,29 @@ html, html a {
 	text-decoration: underline;
 }
 
-body {
-	margin:100px #3b3b3b;
-	background-color:#3b3b3b;
-	color:white;
-	font-family: QuicksandBold;
-	
-	background: repeating-linear-gradient(
+
+
+@media screen and (max-width: 991px){}
+.nav{ 
+    /*position: absolute;*/
+    right: 15px;
+    text-align: right;
+}
+
+.jumbotron {
+ 	height: 650px;
+ 	width: cover;
+ 	background-size: 100%;
+ 	margin: 0;
+ 	font-family: QuicksandBold;
+
+ 	background: repeating-linear-gradient(
 	45deg,
 	rgba(0, 0, 0, 0.6),
 	rgba(0, 0, 0, 0.6) 2px,
 	rgba(0, 0, 0, 0.7) 2px,
 	rgba(0, 0, 0, 0.7) 4px),
 	url('http://estaticos.qdq.com/swdata/photos/814/814196522/2936ed7426a74dba99a6c20c5e8f59cb.jpg');
-}
-
-.jumbotron {
- 	height: 650px;
- 	width: 1164px;
- 	background-size: cover;
- 	margin: 0;
- 	font-family: QuicksandBold;
 }
 
 .jumbotron h1{
@@ -80,16 +88,6 @@ body {
 	font-family: QuicksandBold;
 }
 
-.stripped {
-	background: repeating-linear-gradient(
-	45deg,
-	rgba(0, 0, 0, 0.6),
-	rgba(0, 0, 0, 0.6) 2px,
-	rgba(0, 0, 0, 0.7) 2px,
-	rgba(0, 0, 0, 0.7) 4px),
-	url('http://estaticos.qdq.com/swdata/photos/814/814196522/2936ed7426a74dba99a6c20c5e8f59cb.jpg');
-}
-
 .featurette1 {
 	font-family: QuicksandBold;
 	background-color:#E6E6E6;
@@ -106,16 +104,18 @@ body {
 .hero-content {
 	position: relative;
 	top: 100px;
-	left:200px;
+	left:10%;
 	color: white;
 	font-family: QuicksandBold;
 	font-size: 80px;
+	width: 80% ;
 }
 
 .hero-content h2{
 	color: white;
 	font-size: 80px;
 	font-family: QuicksandBold;
+	width:100%;
 }
 
 .hero-content p{
